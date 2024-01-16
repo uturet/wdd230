@@ -3,16 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/base.css" />
-    <link rel="stylesheet" href="./styles/larger.css" />
+    <title>[Student Name] - WDD 230 - Web Frontend Development</title>
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/larger.css" />
+    <meta
+      name="description"
+      content="WDD 230 - Web Frontend Development, Sergey Tsybenko, course assignment portal"
+    />
+    <meta name="author" content="Sergey Tsybenko" />
   </head>
   <body>
     <header>
-      <h1>Hello World</h1>
+      <img
+        class="author-profile"
+        src="images/profile-image.jpg"
+        alt="Profile Image"
+      />
+      <span class="author-name">Sergey Tsybenko</span>
     </header>
-    <body></body>
-    <footer></footer>
-    <script src="./scripts/index.js"></script>
+
+    <nav class="navigation">
+      <a class="nav-link active" href="#">Home</a>
+      <a class="nav-link" href="#">Chamber</a>
+      <a class="nav-link" href="#">Site Plan</a>
+      <a class="nav-link" href="#">Form</a>
+    </nav>
+
+    <main>
+      <h1>WDD 230: Web Frontend Development</h1>
+      <section class="card">
+        <h2>Information</h2>
+        <span class="card-item">Toloria Madagascar</span>
+        <span class="card-item">76F - Sunshine</span>
+        <span class="card-item">Page Visits: 15</span>
+      </section>
+      <section class="card">
+        <h2>Information</h2>
+        <span class="card-item">Toloria Madagascar</span>
+        <span class="card-item">76F - Sunshine</span>
+        <span class="card-item">Page Visits: 15</span>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy;<span id="year">9999</span> &bull;</p>
+      <p>Sergey Tsybenko</p>
+      <p>Ukraine 🇺🇦</p>
+      <p>Last modified 01/01/1974</p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
   </body>
 </html>
