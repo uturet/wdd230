@@ -54,10 +54,11 @@ body.loading {
 }
 body.loading .loader {
   opacity: 1;
+  z-index: 1;
 }
 
 .loader {
-  z-index: 1;
+  z-index: -1;
   opacity: 0;
   display: flex;
   width: 100vw;
