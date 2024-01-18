@@ -12,7 +12,16 @@
     />
     <meta name="author" content="Sergey Tsybenko" />
   </head>
-  <body>
+  <body class="loading">
+    <div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
     <header>
       <img
         class="author-profile"
@@ -46,10 +55,10 @@
     </main>
 
     <footer>
-      <p>&copy;<span id="year">9999</span></p>
+      <p>&copy;<span id="year"></span></p>
       <p>Sergey Tsybenko</p>
       <p>Ukraine <span class="flag">🇺🇦</span></p>
-      <p>Last modified 01/01/1974</p>
+      <p>Last modified <span id="last-modified"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
   </body>
