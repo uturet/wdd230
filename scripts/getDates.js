@@ -16,5 +16,5 @@ addEventListener("DOMContentLoaded", (event) => {
     setTimeout(() => {
         const body = document.querySelector('body')
         body.classList.remove('loading')
-    }, 2000)
+    }, 500)
 });
