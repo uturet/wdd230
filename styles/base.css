@@ -35,6 +35,12 @@ header {
 .navigation {
   display: flex;
   flex-direction: column;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.navigation.open {
+  max-height: 250px;
 }
 
 .nav-link {
@@ -167,3 +173,54 @@ footer p .flag {
 #last-modified {
   font-weight: bold;
 }
+
+.hamburger_menu {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+.hamburger_menu span {
+  display: block;
+  height: 2px;
+  width: 25px;
+  background-color: white;
+  transition: all 0.3s;
+  position: absolute;
+  left: 0;
+}
+
+.hamburger_menu span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger_menu span:nth-child(2) {
+  top: 9px;
+}
+
+.hamburger_menu span:nth-child(3) {
+  top: 18px;
+}
+
+.hamburger_menu.open span:nth-child(1) {
+  transform: rotate(45deg);
+    transform-origin: top left;
+    width: 26px;
+}
+
+.hamburger_menu.open span:nth-child(2) {
+  left: calc(50%);
+  width: 0;
+}
+
+.hamburger_menu.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  transform-origin: top left;
+  width: 26px;
+  left: -1px;
+}
+
+
+

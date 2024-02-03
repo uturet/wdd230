@@ -1,4 +1,4 @@
-@media (min-width: 928px) {
+@media (min-width: 992px) {
   .navigation {
     flex-direction: row;
   }
@@ -27,11 +27,6 @@
   footer p:last-child {
     flex-basis: 100%;
   }
-
-  .hamburger_menu {
-    display: none;
-  }
-  .navigation {
-    max-height: none;
-  }
 }
+
+/*# sourceMappingURL=larger.css.map */

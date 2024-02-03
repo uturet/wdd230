@@ -18,3 +18,4 @@ addEventListener("DOMContentLoaded", (event) => {
         body.classList.remove('loading')
     }, 500)
 });
+
