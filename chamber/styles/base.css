@@ -189,6 +189,7 @@ footer {
   background-color: #014421;
   color: rgb(186, 186, 186);
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 footer a {
@@ -205,6 +206,12 @@ footer .footer-links {
 }
 footer .footer-links a {
   margin-top: 5px;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  color: #3E6F56;
 }
 
 /*# sourceMappingURL=base.css.map */
