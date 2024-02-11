@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lazy Loading Page</title>
+    <link rel="stylesheet" href="styles/local-storage.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Local Storage</h1>
+    </header>
+
+    <main>
+      <label for="favchap">Enter Book and Chapter: </label>
+      <input type="text" id="favchap" placeholder="Alma 5" />
+      <button type="submit">Add Chapter</button>
+      <ul id="list"></ul>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> WDD230 Project by Sergey Tsybenko</p>
+      <p>Last modified <span id="last-modified"></span></p>
+    </footer>
+
+    <script src="scripts/local-storage.js"></script>
+    <script src="scripts/getDates.js"></script>
+  </body>
+</html>
