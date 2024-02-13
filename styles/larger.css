@@ -3,6 +3,7 @@
     flex-direction: row;
   }
   main {
+    min-height: calc(100vh - 280px);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
