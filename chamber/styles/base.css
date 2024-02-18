@@ -189,6 +189,12 @@ main.sidebared {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+main.sidebared h1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
+  margin: 30px 0;
+}
 main.sidebared .sidebar {
   flex-wrap: wrap;
   width: 100%;
