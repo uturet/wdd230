@@ -7,6 +7,20 @@
     text-align: center;
     max-width: 576px;
   }
+  main.sidebared .sidebar {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    flex-direction: column;
+    padding: 15px;
+  }
+  main.sidebared .sidebar .side-card {
+    margin: 20px 0 10px 0;
+  }
+  main.sidebared .content {
+    margin-left: 30px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
 }
 @media (min-width: 992px) {
   section {
@@ -14,6 +28,12 @@
   }
   nav {
     max-width: 992px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  main.sidebared {
+    max-width: 1200px;
     margin: 0 auto;
   }
 }
