@@ -26,6 +26,12 @@ thead {
     color: white;
 }
 
+input {background-color: #efac3e;}
+
+/* input[type=text] {background-color: #efac3e;} */
+
+
+
 td {
     text-align: center;
     padding: 10px;
