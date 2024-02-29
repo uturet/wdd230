@@ -1,0 +1,45 @@
+:root {
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+form label {
+    padding-top: 15px;
+}
+
+form label input {
+    float: right;
+    margin-left: 15px;
+    padding: 5px;
+    margin-top: -7px;
+}
+
+form label input[type="range"] {
+    width: 210px;
+}
+
+form input[type="submit"] {
+    margin-top: 15px;
+    background-color: #763139;
+    color: white;
+    font-weight: bold;
+    padding: 15px 0;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+form input[type="submit"]:hover {
+    background-color: #45040C;
+}
+
+form label input.error {
+    outline: 2px rgb(255, 83, 83) solid;
+    border-radius: 2px;
+    border:2px solid rgb(255, 83, 83);
+}
