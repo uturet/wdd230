@@ -1,11 +1,12 @@
 const username = document.querySelector('#username')
 function validateUsername(e) {
-    if (username.value.length > 4) {
+
+    if (username.value.length > 4 && username.value.length < 13 && username.value.match("\\d")) {
         username.classList.remove('error')
         username.classList.add('valid')
     } else {
-        e.target.classList.remove('valid')
-        e.target.classList.add('error')
+        username.classList.remove('valid')
+        username.classList.add('error')
     }
 }
 username.addEventListener('input', validateUsername)
@@ -14,12 +15,12 @@ username.addEventListener('blur', validateUsername)
 const email = document.querySelector('#email')
 function validateEmail(e) {
     const regex = "[a-zA-Z0-9._%+-]+@byui\.edu$"
-    if (e.target.value.match(regex)) {
-        e.target.classList.remove('error')
-        e.target.classList.add('valid')
+    if (email.value.match(regex)) {
+        email.classList.remove('error')
+        email.classList.add('valid')
     } else {
-        e.target.classList.remove('valid')
-        e.target.classList.add('error')
+        email.classList.remove('valid')
+        email.classList.add('error')
     }
 }
 email.addEventListener('input', validateEmail)
@@ -28,19 +29,21 @@ email.addEventListener('blur', validateEmail)
 const pass = document.querySelector('#password')
 const repPass = document.querySelector('#repeat_password')
 function validatePass(e) {
-    if (pass.value.length < 4) {
-        pass.classList.remove('valid')
-        pass.classList.add('error')
-    } else {
+    const isValidPass = pass.value.length > 4 && pass.value.length < 13 && pass.value.match("\\d")
+    console.log(isValidPass)
+    if (isValidPass) {
         pass.classList.remove('error')
         pass.classList.add('valid')
-    }
-    if (repPass.value !== pass.value || pass.value.length < 4) {
-        repPass.classList.remove('valid')
-        repPass.classList.add('error')
     } else {
+        pass.classList.remove('valid')
+        pass.classList.add('error')
+    }
+    if (repPass.value === pass.value && isValidPass) {
         repPass.classList.remove('error')
         repPass.classList.add('valid')
+    } else {
+        repPass.classList.remove('valid')
+        repPass.classList.add('error')
     }
 }
 pass.addEventListener('input', validatePass)
