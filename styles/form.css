@@ -1,21 +1,27 @@
 :root {
-
+    --sm-step: 5px;
+    --mid-step: 15px;
+    --big-step: 30px;
+    --l-step: 100px;
+    --red-light: rgb(255, 83, 83);
+    --red: #763139;
+    --red-dark: #45040C;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    margin: 30px auto;
+    margin: var(--big-step) auto;
 }
 
 form label {
-    padding-top: 15px;
+    padding-top: var(--mid-step);
 }
 
 form label input {
     float: right;
-    margin-left: 15px;
-    padding: 5px;
+    margin-left: var(--mid-step);
+    padding: var(--sm-step);
     margin-top: -7px;
 }
 
@@ -24,22 +30,31 @@ form label input[type="range"] {
 }
 
 form input[type="submit"] {
-    margin-top: 15px;
-    background-color: #763139;
+    margin-top: var(--mid-step);
+    background-color: var(--red);
     color: white;
     font-weight: bold;
-    padding: 15px 0;
+    padding: var(--mid-step) 0;
     border: 0;
     cursor: pointer;
     transition: all 0.3s;
 
 }
 form input[type="submit"]:hover {
-    background-color: #45040C;
+    background-color: var(--red-dark);
 }
 
 form label input.error {
-    outline: 2px rgb(255, 83, 83) solid;
+    outline: 2px var(--red-light) solid;
     border-radius: 2px;
-    border:2px solid rgb(255, 83, 83);
+    border:2px solid var(--red-light);
+}
+
+h1.record {
+    margin-top: var(--l-step);
+}
+
+h1.record span {
+    color: var(--red);
+    text-decoration: underline;
 }
