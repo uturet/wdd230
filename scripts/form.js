@@ -1,7 +1,7 @@
 const username = document.querySelector('#username')
 function validateUsername(e) {
 
-    if (username.value.length > 4 && username.value.length < 13 && username.value.match("\\d")) {
+    if (username.value.length > 3) {
         username.classList.remove('error')
         username.classList.add('valid')
     } else {
@@ -65,6 +65,9 @@ submit.addEventListener('click', (e) => {
     if (errors.length > 0) {
         errors.forEach(el => el.classList.add('bounce'))
         setTimeout(() => errors.forEach(el => el.classList.remove('bounce')), 1000)
+        validateUsername()
+        validateEmail()
+        validatePass()
         e.preventDefault()
     }
 })
