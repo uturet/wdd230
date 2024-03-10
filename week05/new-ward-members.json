@@ -1,0 +1,58 @@
+[
+    {
+        "family_name": "Carter",
+        "date_moved": "12 april 2023",
+        "family_members": 2,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            {
+                "name": "Emily",
+                "gender": "F",
+                "birthdate": "30 June 1985"
+            },
+
+            {
+                "name": "Mark",
+                "gender": "M",
+                "birthdate": "5 June 1983"
+            }
+        ]
+    },
+
+    {
+        "family_name": "Brook",
+        "date_moved": "14 March 2024",
+        "family_members": 1,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            {
+                "name": "Jacob",
+                "gender": "M",
+                "birthdate": "3 September 1999"
+            }
+        ]
+    },
+    {
+        "family_name": "Smith",
+        "date_moved": "1 February 2024",
+        "family_members": 3,
+        "visited_by_bishopric": true,
+        "individual_family_members": [
+            {
+                "name": "John",
+                "gender": "M",
+                "birthdate": "5 August 1975"
+            },
+            {
+                "name": "Jim",
+                "gender": "M",
+                "birthdate": "5 August 1997"
+            },
+            {
+                "name": "Linda",
+                "gender": "F",
+                "birthdate": "15 October 1979"
+            }
+        ]
+    }
+]
