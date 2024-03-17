@@ -97,11 +97,35 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+section.company-card {
+  padding: 15px;
+  border-top: 3px #3E6F56 solid;
+}
+section.company-card h2 {
+  flex-grow: 1;
+}
+section.company-card div {
+  margin: 0 auto;
+}
+section.company-card img {
+  margin: 0 auto;
+  width: 200px;
+}
 section h2 {
   width: 100%;
   text-align: center;
   flex-grow: 1;
   margin-bottom: 15px;
+}
+
+main.list section.company-card {
+  flex-wrap: nowrap;
+}
+main.list section.company-card .image-wrapper {
+  order: 2;
+}
+main.list section.company-card img {
+  width: 100px;
 }
 
 .white {
@@ -113,6 +137,20 @@ section h2 {
 }
 .card img {
   max-width: 100%;
+}
+
+.ctr-btn {
+  padding: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  border: gray 1px solid;
+}
+.ctr-btn:hover {
+  background-color: #A0BAA6;
+}
+.ctr-btn.active {
+  border-color: black;
+  background-color: #A0BAA6;
 }
 
 .action-call {

@@ -1,0 +1,95 @@
+{
+    "companies": [
+      {
+        "name": "ABC Industries",
+        "description": "ABC Industries specializes in manufacturing industrial equipment and machinery.",
+        "url": "https://www.abcindustries.com",
+        "image": "images/logo1.webp",
+        "address": "123 Main Street, Anytown, USA",
+        "phoneNumber": "+1 (555) 123-4567",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "XYZ Tech Solutions",
+        "description": "XYZ Tech Solutions offers innovative software solutions for businesses of all sizes.",
+        "url": "https://www.xyztechsolutions.com",
+        "image": "images/logo2.webp",
+        "address": "456 Elm Street, Anycity, USA",
+        "phoneNumber": "+1 (555) 987-6543",
+        "membershipLevel": "silver"
+      },
+      {
+        "name": "123 Marketing Agency",
+        "description": "123 Marketing Agency provides comprehensive marketing services to help businesses grow their online presence.",
+        "url": "https://www.123marketingagency.com",
+        "image": "images/logo3.webp",
+        "address": "789 Oak Avenue, Anyville, USA",
+        "phoneNumber": "+1 (555) 567-8901",
+        "membershipLevel": "gold"
+      },
+      {
+        "name": "Tech Innovations Inc.",
+        "description": "Tech Innovations Inc. specializes in developing cutting-edge technologies for various industries.",
+        "url": "https://www.techinnovations.com",
+        "image": "images/logo4.webp",
+        "address": "101 Innovation Boulevard, Tech City, USA",
+        "phoneNumber": "+1 (555) 234-5678",
+        "membershipLevel": "silver"
+      },
+      {
+        "name": "Global Logistics Solutions",
+        "description": "Global Logistics Solutions offers efficient supply chain management services worldwide.",
+        "url": "https://www.globallogisticsolutions.com",
+        "image": "images/logo5.webp",
+        "address": "789 Harbor Road, Port City, USA",
+        "phoneNumber": "+1 (555) 876-5432",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "Foodie Delights Catering",
+        "description": "Foodie Delights Catering provides delicious catering services for events of all sizes.",
+        "url": "https://www.foodiedelightscatering.com",
+        "image": "images/logo6.webp",
+        "address": "246 Gourmet Avenue, Culinary Town, USA",
+        "phoneNumber": "+1 (555) 765-4321",
+        "membershipLevel": "gold"
+      },
+      {
+        "name": "Eco-Friendly Solutions Ltd.",
+        "description": "Eco-Friendly Solutions Ltd. offers sustainable products and services to promote environmental conservation.",
+        "url": "https://www.ecofriendlysolutions.com",
+        "image": "images/logo7.webp",
+        "address": "321 Green Street, Sustainability City, USA",
+        "phoneNumber": "+1 (555) 321-0987",
+        "membershipLevel": "bronze"
+      },
+      {
+        "name": "Health First Fitness Center",
+        "description": "Health First Fitness Center provides state-of-the-art fitness facilities and personalized training programs.",
+        "url": "https://www.healthfirstfitness.com",
+        "image": "images/logo8.webp",
+        "address": "555 Wellness Avenue, Fitness Town, USA",
+        "phoneNumber": "+1 (555) 890-1234",
+        "membershipLevel": "silver"
+      },
+      {
+        "name": "Creative Minds Advertising Agency",
+        "description": "Creative Minds Advertising Agency offers innovative advertising solutions to help businesses stand out in the market.",
+        "url": "https://www.creativemindsadvertising.com",
+        "image": "images/logo9.webp",
+        "address": "777 Madison Avenue, Ad Town, USA",
+        "phoneNumber": "+1 (555) 234-5678",
+        "membershipLevel": "gold"
+      },
+      {
+        "name": "Virtual Realty Ltd.",
+        "description": "Virtual Realty Ltd. specializes in virtual reality technology for immersive experiences in various industries.",
+        "url": "https://www.virtualrealty.com",
+        "image": "images/logo10.webp",
+        "address": "888 Virtual Street, VR City, USA",
+        "phoneNumber": "+1 (555) 456-7890",
+        "membershipLevel": "bronze"
+      }
+    ]
+  }
+  

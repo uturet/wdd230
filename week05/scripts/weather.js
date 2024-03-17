@@ -8,7 +8,6 @@ async function apiFetch() {
 
     const res = await fetch(api)
     const data = await res.json()
-    console.log(data.current.temp_f)
     currTemp.textContent = `${data.current.temp_f}`
 
     weatherIcon.setAttribute('src', data.current.condition.icon)
