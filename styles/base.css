@@ -140,6 +140,10 @@ h2 {
   border-bottom: 5px solid #D46A6A;
 }
 
+.card.learning {
+  align-items: start;
+}
+
 .card-item {
   font-size: 1.3em;
   margin-bottom: 15px;

@@ -20,3 +20,17 @@ function countVisited() {
 }
 countVisited()
 
+
+const currTemp = document.querySelector('#cur-temp')
+const captionDesc = document.querySelector('#weather-desc')
+
+async function apiFetch() {
+    const api = "http://api.weatherapi.com/v1/current.json?key=8fb67fc2fa6444ba96633447241003&q=Rexburg"
+
+    const res = await fetch(api)
+    const data = await res.json()
+    currTemp.textContent = `${data.current.temp_f}`
+    captionDesc.textContent = data.current.condition.text
+}
+apiFetch()
+
