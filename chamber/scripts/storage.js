@@ -12,10 +12,10 @@ function storage() {
     if (visit.VisitCount == 1) {
         message = "Welcome! Let us know if you have any questions."
     }
-    else if ((Date.now() - visit.lastVisit) < 3600000 ) {
+    else if ((Date.now() - visit.lastVisit) < 86400000 ) {
         message = "Back so soon! Awesome!"
     } else {
-        const days = Math.floor((Date.now() - visit.lastVisit) / 3600000)
+        const days = Math.floor((Date.now() - visit.lastVisit) / 86400000)
         message = `You last visited ${days} days ago.`
     }
 
