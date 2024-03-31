@@ -25,12 +25,11 @@ const currTemp = document.querySelector('#cur-temp')
 const captionDesc = document.querySelector('#weather-desc')
 
 async function apiFetch() {
-    const api = "http://api.weatherapi.com/v1/current.json?key=8fb67fc2fa6444ba96633447241003&q=Rexburg"
+    const api = "https://api.openweathermap.org/data/2.5/weather?lat=43.824683&lon=-111.782721&appid=47932cfde3bb73e9fa4108c38c1b599d&units=imperial"
 
     const res = await fetch(api)
     const data = await res.json()
-    currTemp.textContent = `${data.current.temp_f}`
-    captionDesc.textContent = data.current.condition.text
+    currTemp.textContent = `${data.main.temp}`
+    captionDesc.textContent = data.weather[0].main
 }
 apiFetch()
-

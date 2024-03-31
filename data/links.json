@@ -4,7 +4,7 @@
             "week": "Week 1",
             "links": [
                 {
-                    "url": "week01/chamber-site-plan.html",
+                    "url": "https://uturet.github.io/wdd230/week01/chamber-site-plan.html",
                     "title": "Layout"
                 }
             ]
@@ -13,7 +13,7 @@
             "week": "Week 2",
             "links": [
                 {
-                    "url": "week02/design.htm",
+                    "url": "https://uturet.github.io/wdd230/week02/design.html",
                     "title": "Layout"
                 },
                 {
@@ -30,23 +30,23 @@
             "week": "Week 3",
             "links": [
                 {
-                    "url": "chamber/",
+                    "url": "https://uturet.github.io/wdd230/chamber/",
                     "title": "Chamber"
                 },
                 {
-                    "url": "week03/images/landscape.webp",
+                    "url": "https://uturet.github.io/wdd230/week03/images/landscape.webp",
                     "title": "WebP"
                 },
                 {
-                    "url": "week03/",
+                    "url": "https://uturet.github.io/wdd230/week03/",
                     "title": "LazyLoad"
                 },
                 {
-                    "url": "week03/responsive-images.html",
+                    "url": "https://uturet.github.io/wdd230/week03/responsive-images.html",
                     "title": "Responsive Images"
                 },
                 {
-                    "url": "week03/local-storage.html",
+                    "url": "https://uturet.github.io/wdd230/week03/local-storage.html",
                     "title": "Local Storage"
                 }
             ]
@@ -59,11 +59,11 @@
                     "title": "PseudoClasses"
                 },
                 {
-                    "url": "week04/tablebuild.html",
+                    "url": "https://uturet.github.io/wdd230/week04/tablebuild.html",
                     "title": "Table"
                 },
                 {
-                    "url": "form-start/",
+                    "url": "https://uturet.github.io/wdd230/form-start/",
                     "title": "WebForms"
                 }
             ]
@@ -76,15 +76,15 @@
                     "title": "Pseudo-elements"
                 },
                 {
-                    "url": "week05/new-ward-members.json",
+                    "url": "https://uturet.github.io/wdd230/week05/new-ward-members.json",
                     "title": "JSON"
                 },
                 {
-                    "url": "week05/prophets.html",
+                    "url": "https://uturet.github.io/wdd230/week05/prophets.html",
                     "title": "Prophets"
                 },
                 {
-                    "url": "week05/weather.html",
+                    "url": "https://uturet.github.io/wdd230/week05/weather.html",
                     "title": "Api call"
                 }
             ]
