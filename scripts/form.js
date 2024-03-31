@@ -30,7 +30,6 @@ const pass = document.querySelector('#password')
 const repPass = document.querySelector('#repeat_password')
 function validatePass(e) {
     const isValidPass = pass.value.length > 4 && pass.value.length < 13 && pass.value.match("\\d")
-    console.log(isValidPass)
     if (isValidPass) {
         pass.classList.remove('error')
         pass.classList.add('valid')

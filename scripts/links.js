@@ -12,7 +12,6 @@ async function loadLinks() {
             link.href = l.url
             link.textContent = l.title
             week.append(link)
-            console.log(i, w.links.length-1)
             if (i !== w.links.length-1) {
                 week.append(' | ')
             }

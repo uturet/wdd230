@@ -44,7 +44,6 @@ function setChapterList() {
 }
 
 function getChapterList() {
-    console.log('Data', JSON.parse(localStorage.getItem('myFavBOMList')))
     return JSON.parse(localStorage.getItem('myFavBOMList'))
 }
 
