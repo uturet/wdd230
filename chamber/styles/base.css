@@ -139,13 +139,14 @@ main.list section.company-card img {
   margin-left: 15px;
   cursor: pointer;
   border: gray 1px solid;
+  background-color: #014421;
+  color: white;
 }
 .ctr-btn:hover {
-  background-color: #A0BAA6;
+  background-color: #3E6F56;
 }
 .ctr-btn.active {
-  border-color: black;
-  background-color: #A0BAA6;
+  background-color: #3E6F56;
 }
 
 .action-call {
@@ -250,6 +251,45 @@ form.join .submit input {
   padding: 10px 20px;
 }
 
+.banner {
+  z-index: 1000;
+  padding: 20px 20px;
+  position: fixed;
+  bottom: 0;
+  background-color: #014421;
+  color: white;
+  text-align: center;
+}
+.banner.hidden {
+  display: none;
+}
+.banner .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  width: 25px;
+  height: 27px;
+}
+.banner .close:hover {
+  background-color: #3E6F56;
+}
+.banner .close span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+}
+.banner .close span:nth-child(1) {
+  top: 13px;
+  transform: rotate(45deg);
+}
+.banner .close span:nth-child(2) {
+  top: 13px;
+  transform: rotate(-45deg);
+}
+
 main.sidebared {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -326,4 +366,3 @@ footer .copyright {
   color: #3E6F56;
 }
 
-/*# sourceMappingURL=base.css.map */

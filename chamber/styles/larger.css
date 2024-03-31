@@ -45,10 +45,16 @@
     width: 30%;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   main.sidebared {
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .banner {
+    width: 100%;
+  }
+  .banner .close {
+    right: 50px;
   }
 }
 

@@ -9,7 +9,7 @@ async function apiFetch() {
 
     data.list.forEach((v,i) => {
         if (i % 8 === 0) {
-            days[Math.floor(i/8)].innerHTML = `<p>${weekDays[(new Date(v.dt * 1000)).getDay()]}</p><p>${v.main.temp} F</p>`
+            days[Math.floor(i/8)].innerHTML = `<p>${weekDays[(new Date(v.dt * 1000)).getDay()]}</p><p>${v.main.temp} F</p><p>${v.weather[0].main}</p>`
         }
     })
 }
