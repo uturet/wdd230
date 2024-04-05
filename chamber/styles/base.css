@@ -1,7 +1,3 @@
-@font-face {
-  font-family: Roboto;
-  src: url(Roboto-Regular.ttf);
-}
 body {
   max-width: 100vw;
   min-height: 100vh;
@@ -204,11 +200,11 @@ main.list section.company-card img {
 }
 .action-call form button {
   border: none;
-  background-color: #8CC84B;
+  background-color: #014421;
   padding: 5px 20px;
   font-weight: bold;
   color: white;
-  box-shadow: 0px 2px 4px 2px #014421;
+  border: 1px solid white;
   cursor: pointer;
 }
 .action-call form button:hover {
@@ -338,14 +334,14 @@ main.sidebared .content div.img-wrapper img {
 
 footer {
   background-color: #014421;
-  color: rgb(186, 186, 186);
+  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: auto;
 }
 footer a {
-  color: rgb(186, 186, 186);
+  color: white;
 }
 footer .footer-logo {
   max-width: 20px;
@@ -363,6 +359,6 @@ footer .copyright {
   width: 100%;
   text-align: center;
   font-weight: bold;
-  color: #3E6F56;
 }
 
+/*# sourceMappingURL=base.css.map */
