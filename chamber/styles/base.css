@@ -187,6 +187,7 @@ main.list section.company-card img {
   flex-wrap: wrap;
 }
 .action-call form .form-input {
+  position: relative;
   width: 100%;
   margin-top: 10px;
   color: white;
@@ -206,6 +207,15 @@ main.list section.company-card img {
 }
 .action-call form .form-input input:focus {
   outline: none;
+}
+.action-call form .form-input .err-message {
+  display: none;
+  position: absolute;
+  right: 130px;
+  top: 45px;
+}
+.action-call form .form-input .err-message.show {
+  display: block;
 }
 .action-call form .submit {
   margin-top: 15px;

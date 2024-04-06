@@ -41,11 +41,19 @@ memLevel.addEventListener('input', (e) => {
 
 const submit = document.querySelector('input[type="submit"]')
 submit.addEventListener('click', (e) => {
+    validatePosition()
+
     const errors = document.querySelectorAll('input.error')
     if (errors.length > 0) {
-        errors.forEach(el => el.classList.add('bounce'))
+        errors.forEach(el => {
+            el.classList.add('bounce')
+            const errMsg = el.parentElement.parentElement.querySelector('.err-message')
+            if (errMsg) {
+                errMsg.classList.add('show')
+            }
+        })
         setTimeout(() => errors.forEach(el => el.classList.remove('bounce')), 1000)
-        validatePosition()
+        e.preventDefault()
     }
 })
 
