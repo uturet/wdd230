@@ -23,6 +23,7 @@ countVisited()
 
 const currTemp = document.querySelector('#cur-temp')
 const captionDesc = document.querySelector('#weather-desc')
+const wIcon = document.querySelector('#w-icon')
 
 async function apiFetch() {
     const api = "https://api.openweathermap.org/data/2.5/weather?lat=43.824683&lon=-111.782721&appid=47932cfde3bb73e9fa4108c38c1b599d&units=imperial"
@@ -31,5 +32,7 @@ async function apiFetch() {
     const data = await res.json()
     currTemp.textContent = `${data.main.temp}`
     captionDesc.textContent = data.weather[0].main
+    wIcon.src = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`
+    wIcon.alt = data.weather[0].main
 }
 apiFetch()
