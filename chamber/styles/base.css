@@ -259,6 +259,8 @@ main.list section.company-card img {
 .weather {
   display: flex;
   margin-top: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .weather div {
   border-right: white 1px solid;
