@@ -19,11 +19,16 @@ header {
   background-color: #014421;
 }
 
+nav {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+nav::-webkit-scrollbar {
+  display: none;
+}
+
 img.logo {
   width: 20px;
-  position: absolute;
-  left: 17px;
-  top: 17px;
 }
 
 a {
