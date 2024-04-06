@@ -30,6 +30,16 @@
   }
 }
 @media (min-width: 992px) {
+  .action-call .content {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .action-call .content form {
+    width: 60%;
+  }
+  .action-call .content .membership {
+    width: 40%;
+  }
   section {
     max-width: 992px;
   }
@@ -58,3 +68,4 @@
   }
 }
 
+/*# sourceMappingURL=larger.css.map */

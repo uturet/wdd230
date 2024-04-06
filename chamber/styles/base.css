@@ -164,6 +164,20 @@ main.list section.company-card img {
   background-color: #014421;
   opacity: 0.7;
 }
+.action-call .membership {
+  color: white;
+  max-width: 500px;
+  margin: 30px auto 0 auto;
+  height: 150px;
+}
+.action-call .membership h3 {
+  text-align: center;
+}
+.action-call .membership .price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+}
 .action-call h2 {
   color: white;
 }
