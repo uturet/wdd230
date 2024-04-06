@@ -130,9 +130,6 @@ section h2 {
   margin-bottom: 15px;
 }
 
-main.list section.company-card {
-  flex-wrap: nowrap;
-}
 main.list section.company-card .image-wrapper {
   order: 2;
 }

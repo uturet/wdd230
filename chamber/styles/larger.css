@@ -1,3 +1,8 @@
+@media (min-width: 576px) {
+  main.list section.company-card {
+    flex-wrap: nowrap;
+  }
+}
 @media (min-width: 768px) {
   .card {
     padding: 0 15px;
