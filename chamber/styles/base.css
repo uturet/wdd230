@@ -5,6 +5,14 @@ body {
   font-family: Roboto;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s;
+}
+body.dark {
+  background-color: #333333;
+  color: white;
+}
+body.dark a {
+  color: white;
 }
 
 header {
@@ -33,17 +41,25 @@ a.logo img {
 nav {
   display: flex;
 }
-nav a {
+nav a, nav span {
   text-decoration: none;
   color: white;
   padding: 16px;
   font-size: 18px;
 }
-nav a:hover, nav a.active {
+nav a:hover, nav a.active, nav span:hover, nav span.active {
   background-color: #3E6F56;
 }
-nav a:last-child {
+nav a:last-child, nav span:last-child {
   margin-right: 0;
+}
+nav span {
+  cursor: pointer;
+  padding-top: 13px;
+  padding-bottom: 12px;
+}
+nav span img {
+  filter: invert(1);
 }
 
 section.hero {
